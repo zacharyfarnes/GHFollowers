@@ -51,6 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB5108252B4DB8680030C672 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ABDF09A92B442CB9009E0249 /* SearchVC.swift */,
+				ABDF09AB2B442D0E009E0249 /* FavoritesListVC.swift */,
+				ABB8E2FD2B447C3D00D40A8C /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AB5108262B4DB89D0030C672 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB5108212B4DAEF50030C672 /* GFAlertVC.swift */,
+				ABB8E2F92B446AC200D40A8C /* GFButton.swift */,
+				ABB8E2FB2B446DE300D40A8C /* GFTextField.swift */,
+				AB65C1B42B4C69C8005BC279 /* GFTitleLabel.swift */,
+				AB51081F2B4DADDD0030C672 /* GFBodyLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		AB5108272B4DB8CE0030C672 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB5108232B4DB4DF0030C672 /* UIViewController + Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB5108282B4DB92C0030C672 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				ABDF09952B44262C009E0249 /* AppDelegate.swift */,
+				ABDF09972B44262C009E0249 /* SceneDelegate.swift */,
+				ABDF099E2B44262D009E0249 /* Assets.xcassets */,
+				ABDF09A02B44262D009E0249 /* LaunchScreen.storyboard */,
+				ABDF09A32B44262D009E0249 /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		ABDF09892B44262C009E0249 = {
 			isa = PBXGroup;
 			children = (
@@ -70,20 +112,10 @@
 		ABDF09942B44262C009E0249 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
-				ABDF09952B44262C009E0249 /* AppDelegate.swift */,
-				ABDF09972B44262C009E0249 /* SceneDelegate.swift */,
-				ABDF099E2B44262D009E0249 /* Assets.xcassets */,
-				ABDF09A02B44262D009E0249 /* LaunchScreen.storyboard */,
-				ABDF09A32B44262D009E0249 /* Info.plist */,
-				ABDF09A92B442CB9009E0249 /* SearchVC.swift */,
-				ABDF09AB2B442D0E009E0249 /* FavoritesListVC.swift */,
-				ABB8E2F92B446AC200D40A8C /* GFButton.swift */,
-				ABB8E2FB2B446DE300D40A8C /* GFTextField.swift */,
-				ABB8E2FD2B447C3D00D40A8C /* FollowerListVC.swift */,
-				AB65C1B42B4C69C8005BC279 /* GFTitleLabel.swift */,
-				AB51081F2B4DADDD0030C672 /* GFBodyLabel.swift */,
-				AB5108212B4DAEF50030C672 /* GFAlertVC.swift */,
-				AB5108232B4DB4DF0030C672 /* UIViewController + Ext.swift */,
+				AB5108272B4DB8CE0030C672 /* Extensions */,
+				AB5108262B4DB89D0030C672 /* Custom Views */,
+				AB5108252B4DB8680030C672 /* Screens */,
+				AB5108282B4DB92C0030C672 /* Support */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -314,7 +346,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3484N7QHF7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = GHFollowers/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -344,7 +376,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3484N7QHF7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GHFollowers/Info.plist;
+				INFOPLIST_FILE = GHFollowers/Support/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
