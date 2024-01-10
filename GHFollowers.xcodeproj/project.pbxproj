@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB13BDA92B4EB042000DE4AD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB13BDA82B4EB042000DE4AD /* NetworkManager.swift */; };
 		AB5108202B4DADDD0030C672 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51081F2B4DADDD0030C672 /* GFBodyLabel.swift */; };
 		AB5108222B4DAEF50030C672 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5108212B4DAEF50030C672 /* GFAlertVC.swift */; };
 		AB5108242B4DB4DF0030C672 /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5108232B4DB4DF0030C672 /* UIViewController + Ext.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB13BDA82B4EB042000DE4AD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		AB51081F2B4DADDD0030C672 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		AB5108212B4DAEF50030C672 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		AB5108232B4DB4DF0030C672 /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB13BDA72B4EB02E000DE4AD /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				AB13BDA82B4EB042000DE4AD /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		AB5108252B4DB8680030C672 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		ABDF09942B44262C009E0249 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				AB13BDA72B4EB02E000DE4AD /* Managers */,
 				ABB603FC2B4DFD4F00669F1D /* Models */,
 				AB5108272B4DB8CE0030C672 /* Extensions */,
 				AB5108262B4DB89D0030C672 /* Custom Views */,
@@ -214,6 +225,7 @@
 				AB5108202B4DADDD0030C672 /* GFBodyLabel.swift in Sources */,
 				ABB603FE2B4DFD5C00669F1D /* Follower.swift in Sources */,
 				AB65C1B52B4C69C8005BC279 /* GFTitleLabel.swift in Sources */,
+				AB13BDA92B4EB042000DE4AD /* NetworkManager.swift in Sources */,
 				ABB8E2FE2B447C3D00D40A8C /* FollowerListVC.swift in Sources */,
 				ABDF09962B44262C009E0249 /* AppDelegate.swift in Sources */,
 				ABDF09982B44262C009E0249 /* SceneDelegate.swift in Sources */,
