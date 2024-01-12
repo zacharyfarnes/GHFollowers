@@ -80,8 +80,8 @@
 		AB13BDAA2B4EB864000DE4AD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				AB13BDAB2B4EB875000DE4AD /* GFError.swift */,
 				AB13BDB22B4ED53A000DE4AD /* UIHelper.swift */,
+				AB13BDAB2B4EB875000DE4AD /* GFError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
